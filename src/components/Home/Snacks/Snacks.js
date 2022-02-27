@@ -15,7 +15,7 @@ const Snacks = () => {
                         <img width='100%' src={snacks} alt="" />
                     </Grid>
                     <Grid item xs={12} md={6}>
-                        <Typography sx={{ color: 'white', fontFamily: 'Proza Libre', fontWeight: 700, fontSize: '58px', WebkitTextStroke: '3px #FFA800', WebkitTextFillColor: 'black', marginBottom: '10px' }} variant="h2" component="div" >
+                        <Typography sx={{ color: 'white', fontFamily: 'Proza Libre', fontWeight: 700, fontSize: '58px', WebkitTextStroke: '3px #FFA800', WebkitTextFillColor: 'black', marginBottom: '20px' }} variant="h2" component="div" >
                             SNACKS
                         </Typography>
                         <Box sx={{ marginBottom: '10px' }}>
@@ -41,7 +41,7 @@ const Snacks = () => {
                                         </Typography>
                                     </Grid>
                                     <Grid item xs={4} >
-                                        <img src={hot} alt="" />
+                                        <img width='100%' src={hot} alt="" />
                                     </Grid>
                                 </Grid>
                             </Box>
@@ -69,7 +69,7 @@ const Snacks = () => {
                                         </Typography>
                                     </Grid>
                                     <Grid item xs={4} >
-                                        <img src={chicken} alt="" />
+                                        <img width='100%' src={chicken} alt="" />
                                     </Grid>
                                 </Grid>
                             </Box>
@@ -97,7 +97,7 @@ const Snacks = () => {
                                         </Typography>
                                     </Grid>
                                     <Grid item xs={4} >
-                                        <img src={salad} alt="" />
+                                        <img width='100%' src={salad} alt="" />
                                     </Grid>
                                 </Grid>
                             </Box>

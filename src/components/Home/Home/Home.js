@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
+import Beveraze from '../Beveraze/Beveraze';
 import Burger from '../Burger/Burger';
 import Menu from '../Menu/Menu';
 import ShopView from '../ShopView/ShopView';
@@ -13,6 +14,7 @@ const Home = () => {
             <Menu></Menu>
             <Burger></Burger>
             <Snacks></Snacks>
+            <Beveraze></Beveraze>
         </div>
     );
 };
