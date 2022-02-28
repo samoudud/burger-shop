@@ -50,3 +50,17 @@ body {
 	background: #000000;
 	padding: 20px 0;
 }
+
+.Contact {
+	background: url("./images/contact-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 50px 0;
+}
+
+.Footer {
+	background: #000000;
+	text-align: center;
+	padding: 20px 0;
+}
